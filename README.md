@@ -34,8 +34,7 @@ The project began as an attempt to adapt Klipper and G-code for robotic motion, 
 **Repositories:**
 [Motor Controller Firmware](https://www.github.com/AlexBarba24/monster8swerve) · [WPILib Vendor Library](https://github.com/AlexBarba24/MonsterControllerVendorlib)
 
-
-[Motor Controller Firmware](https://www.github.com/AlexBarba24/monster8swerve) [Vendor Library](https://github.com/AlexBarba24/MonsterControllerVendorlib.git)
+---
 
 ## VOIP Client
 
