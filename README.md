@@ -23,6 +23,19 @@ I am a sophomore studying Computer Engineering at the University of Michigan.
 ---
 
 # Featured Projects
+## Monster8 Swerve Controller
+
+I developed custom firmware for the **MKS Monster8**, an STM32F407-based controller, to independently control **eight stepper motors and four encoders** for low-cost swerve-drive prototyping. The firmware runs on **FreeRTOS** and uses interrupt-driven step generation for reliable real-time motor control, with commands accepted over both **USB serial and CAN**.
+
+The controller follows the **FIRST Robotics CAN addressing scheme**, exposing each motor as an individual FRC motor-controller device. I also developed a **WPILib vendor library** that allows each motor to be controlled through the standard `MotorController` interface. Together, these tools let students prototype and test real swerve-drive software using inexpensive stepper motors and a single development board instead of purchasing eight proprietary smart motor controllers.
+
+The project began as an attempt to adapt Klipper and G-code for robotic motion, but I ultimately rewrote the firmware around FreeRTOS after determining that a continuously re-commanded robot required a fundamentally different real-time architecture than a pre-planned 3D-printer motion system.
+
+**Repositories:**
+[Motor Controller Firmware](https://www.github.com/AlexBarba24/monster8swerve) · [WPILib Vendor Library](https://github.com/AlexBarba24/MonsterControllerVendorlib)
+
+
+[Motor Controller Firmware](https://www.github.com/AlexBarba24/monster8swerve) [Vendor Library](https://github.com/AlexBarba24/MonsterControllerVendorlib.git)
 
 ## VOIP Client
 
